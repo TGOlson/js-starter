@@ -1,5 +1,4 @@
-const quicksort = require('./src/quicksort');
+const getTodo = require('./src/requestExample');
 
-const xs = quicksort([9, 2, 7, 1, 3, 7]);
 
-console.log(xs); // eslint-disable-line no-console
+getTodo(1).then(r => console.log(r)); // eslint-disable-line no-console
