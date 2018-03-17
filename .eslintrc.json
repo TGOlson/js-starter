@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb",
+    "plugins": ["import"],
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "max-len": ["error", { "code": 110 }],
+      "no-underscore-dangle": ["off"],
+      "no-confusing-arrow": ["error", {"allowParens": true}]
+    }
+}
